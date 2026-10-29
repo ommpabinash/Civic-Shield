@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# React / Node
+node_modules/
+frontend/dist/
+
+# Secrets and local configuration
+.env.*
+!.env.example
+
+# Logs and local database exports
+*.log
+*.sql
